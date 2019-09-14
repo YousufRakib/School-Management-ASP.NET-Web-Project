@@ -1,0 +1,109 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="MasterPage.master.cs" Inherits="MasterPage" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title></title>
+     
+    <style type="text/css">
+        .auto-style3 {
+            height: 23px;
+        }
+        .auto-style5 {
+            color: #00FF00;
+            width: 900px;
+            height: 50px;
+        }
+        .auto-style8 {
+            font-family: Helvetica, Arial, sans-serif;
+            font-size: 16px;
+            color: #FFFFFF;
+            letter-spacing: normal;
+            width: 120px;
+            font-weight: bold;
+            background-color: #FFFFFF;
+            height: 50px;
+        }
+        .auto-style9 {
+            height: 40px;
+        }
+        .auto-style10 {
+            width: 60px;
+            height: 50px;
+        }
+        .auto-style11 {
+            width: 99px;
+            height: 78px;
+            margin-left: 3px;
+        }
+        .auto-style12 {
+            width: 117px;
+            height: 76px;
+            margin-left: 0px;
+        }
+        .auto-style14 {
+            width: 1271px;
+        }
+    </style>
+     
+</head>
+<body>
+    <form id="form1" runat="server">
+        <table style="width:1100px;margin :0 auto">
+            <tr style="width:1100px;">
+                <td class="auto-style10">
+                    <img src="Images/17.png" class="auto-style12" />    
+                </td>
+                <td class="auto-style8">&nbsp;<asp:Button ID="Button1" runat="server" BackColor="Lime" BorderStyle="Ridge" Font-Bold="True" Font-Italic="True" Font-Size="XX-Large" ForeColor="White" Height="64px" Text="Daffodil International School" Width="1043px" />
+                &nbsp;</td>
+                <td class="auto-style5">
+                    <img class="auto-style11" src="Images/220px-Md_sabur_khan.jpg" /></td>                                  
+            </tr> 
+            <tr style="width:1100px;height:40px;background-color:#282e27">
+                <td colspan="3" class="auto-style9">
+                    &nbsp;&nbsp;&nbsp;
+                    <asp:Button ID="Button2" runat="server" BackColor="#333333" BorderStyle="None" Font-Bold="True" Font-Names="Aharoni" Font-Size="Large" ForeColor="White" OnClick="Button2_Click" Text="Home" />
+&nbsp;&nbsp;&nbsp;&nbsp;
+                    <asp:Button ID="Button3" runat="server" BackColor="#333333" BorderStyle="None" Font-Bold="True" Font-Names="Aharoni" Font-Size="Large" ForeColor="White" Text="About us" OnClick="Button3_Click" />
+&nbsp;&nbsp;&nbsp;&nbsp;
+                    <asp:Button ID="Button4" runat="server" BackColor="#333333" BorderStyle="None" Font-Bold="True" Font-Names="Aharoni" Font-Size="Large" ForeColor="White" Text="Student's Info" OnClick="Button4_Click" />
+&nbsp;&nbsp;&nbsp;&nbsp;
+                    <asp:Button ID="Button5" runat="server" BackColor="#333333" BorderColor="#333333" BorderStyle="None" Font-Bold="True" Font-Names="Aharoni" Font-Size="Large" ForeColor="White" Text="Teacher's Info" OnClick="Button5_Click" />
+&nbsp;&nbsp;&nbsp;&nbsp;
+                    <asp:Button ID="Button6" runat="server" BackColor="#333333" BorderStyle="None" Font-Bold="True" Font-Names="Aharoni" Font-Size="Large" ForeColor="White" Text="Management" OnClick="Button6_Click" />
+&nbsp;&nbsp;&nbsp;&nbsp;
+                    <asp:Button ID="Button7" runat="server" BackColor="#333333" BorderStyle="None" Font-Bold="True" Font-Names="Aharoni" Font-Size="Large" ForeColor="White" Text="Result" OnClick="Button7_Click" />
+&nbsp;&nbsp;&nbsp;&nbsp;
+                    <asp:Button ID="Button8" runat="server" BackColor="#333333" BorderStyle="None" Font-Bold="True" Font-Names="Aharoni" Font-Size="Large" ForeColor="White" Text="Contact us" OnClick="Button8_Click" />
+&nbsp;&nbsp;&nbsp;&nbsp;
+                    <asp:Button ID="Button9" runat="server" BackColor="#333333" BorderStyle="None" Font-Bold="True" Font-Names="Aharoni" Font-Size="Large" ForeColor="White" Text="Location" OnClick="Button9_Click" />
+&nbsp;&nbsp;&nbsp;&nbsp;
+                    <asp:Button ID="Button10" runat="server" BackColor="#333333" BorderStyle="None" Font-Bold="True" Font-Names="Aharoni" Font-Size="Large" ForeColor="White" Text="Gallery" OnClick="Button10_Click" />
+                </td>
+            </tr>
+            <tr style="width:1100px;height:300px">
+                <td colspan="3">
+                    <img src="Images/10.jpg" class="auto-style14" /> 
+                </td>
+            </tr>
+            <tr style="width:1100px">
+                <td colspan="3" class="auto-style3">
+                    <asp:ContentPlaceHolder id="ContentPlaceHolder1" runat="server">        
+                    </asp:ContentPlaceHolder>
+                </td>
+            </tr>
+            <tr style="width:1100px;height:20px">
+                <td colspan="3"></td>                                  
+            </tr>
+            <tr style="width:1100px">
+                <td colspan="3" class="auto-style3">
+                    <asp:ContentPlaceHolder id="ContentPlaceHolder2" runat="server">        
+                    </asp:ContentPlaceHolder>
+                </td>
+            </tr>
+            
+        </table>                  
+    </form>
+</body>
+</html>

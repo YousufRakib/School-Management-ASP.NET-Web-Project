@@ -1,0 +1,75 @@
+﻿ 
+body {
+            padding: 0;
+            border:0;
+
+        }
+ 
+ section {
+     
+    background-image: url('../Images/rsz_28.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100vw;
+    height: 200vh;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+         
+ 
+}
+ 
+img{
+    width:30vw;
+    height:80vh;
+}
+.container{
+    width:100vw;
+    height:100vh;
+    position:absolute;
+    top:0;right:0;bottom:0;left:0;
+    display:flex;
+    justify-content:center;
+}
+.inner{
+    margin-top:22vh;
+    width:28vw;
+    height:41vh;
+    text-align:center;
+    background-color:rgba(251, 251, 251, 0.41)
+}
+#Label1{
+    font-size:3vw;
+    font-family: 'Anton', sans-serif;
+    color:coral;
+    border-bottom:2px solid black;
+    padding:0% 5% 0% 5%;
+}
+
+.lblstyle{
+     font-size:2vw;
+    font-family: 'Righteous', cursive;
+    color:#ffffff ;
+}
+.txtstyle{
+    width:20vw;
+    height:4vh;
+    border:0px;
+    font-size:2vw;
+    background-color:transparent;
+    border-bottom:2px solid white;
+    padding-top:1vh;
+    padding-left:2vw;
+    font-family: 'Passion One', cursive;
+}
+#Button1{
+    width:20vw;
+    height:8vh;
+    border:0px;
+    background-color:transparent;
+    font-size:3vw;
+    font-family: 'Boogaloo', cursive;
+    background-color:rgba(245, 241, 241, 0.64);
+    color:dodgerblue;
+    border-radius:15%;
+}
